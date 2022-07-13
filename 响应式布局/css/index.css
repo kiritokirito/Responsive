@@ -32,6 +32,7 @@ ul,li{
 .search{
     margin: 0 auto;
     height: 120px;
+    bru
 }
 .zsff{
     font-size: 40px;
@@ -87,11 +88,11 @@ ul,li{
     font-weight: normal;
     font-size: 18px;
 }
-ul{
+ul.fl{
     width: 900px;
     height: 60px;
 }
-li{
+ul.fl>li{
     float: left;
     display: block;
     font-size: 18px;
@@ -99,7 +100,144 @@ li{
     color: #000000;
     margin-left: 40px;
 }
-.line2{
-    width: 124%;
-    border:1px solid #e9511b;
+ul.fl ul li{
+    background-color: rgba(0,0,0,0.65);
+    width: 250px;
+    position: relative;
+    left: -40px;
+    height: 80px;
+}
+ul.fl ul li:hover{
+    background-color: #e9511b;
+}
+.banner{
+    margin: 0 auto;
+}
+.banner img{
+    margin-top: -16px;
+}
+.main{
+    margin: 0 auto;
+}
+.main .title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.main ul{
+    /*width: 1200px;*/
+    height: 500px;
+    display: table;
+    padding: 0;
+}
+.main li{
+    width: 282px;
+    height: 253px;
+    float: left;
+    margin-left: 24px;
+    position: relative;
+    left: 0px;
+}
+.main li img.vip{
+    position: relative;
+    transform: scale(0.7);
+    left: 195px;
+    top: -190px;
+    float: left;
+}
+.main li .img .ywj{
+    background-color: #17a2b8;
+    position: relative;
+    left: -100px;
+    top: -30px;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 0px 10px 0px 0px;
+    font-size: 12px;
+}
+.main li .img .text{
+    width: 360px;
+    height: 25px;
+    margin: 0px;
+    position: relative;
+    left: -70px;
+    top: -15px;
+    font-size: 14px;
+}
+
+.foot{
+    background-color: #32333b;
+    height: 240px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.foot .fw{
+    width: 1200px;
+}
+.foot .contact .logo{
+    font-size: 40px;
+    margin: 30px 50px;
+    position: relative;
+    top: 50px;
+}
+.foot .contact .cont{
+    color: #fff;
+    margin: -40px 320px;
+}
+.foot .contact .qr{
+    margin-left: 700px;
+    color: #fff;
+    text-align: center;
+}
+.foot .contact .qr2{
+    margin-left: 1000px;
+    margin-top: -137px;
+    color: #fff;
+    text-align: center;
+}
+.foot .line2{
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+}
+.foot .state{
+    width: 1000px;
+    color: #fff;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.xuanfu{
+    position: fixed;
+    right: 10px;
+    top: 48%;
+    width: 62px;
+    z-index: 999;
+    margin-top: -180px;
+}
+.xuanfu .vip,.xuanfu .teach,.xuanfu .top{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+.xuanfu .vip{
+    color: #fff;
+    background: linear-gradient(to bottom,#fac257,#ffad09);/*渐变*/
+}
+.xuanfu .teach{
+    color: #666;
+    background-color: #fff;
+    border:1px solid #ccc;
+
+}
+.xuanfu .top{
+    color: #666;
+    background-color: #fff;
+    border:1px solid #ccc;
 }
